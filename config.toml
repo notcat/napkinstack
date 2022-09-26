@@ -1,0 +1,54 @@
+baseURL = 'https://napkinstack.com/'
+languageCode = 'en-us'
+title = 'napkinstack'
+theme = "hugo-theme-terminal"
+publishDir = "/home/damon/docker-services/napkinstackhugo/data/nginx/www/html/"
+
+[params]
+    contentTypeName = ""
+
+    # ["orange", "blue", "red", "green", "pink"]
+    themeColor = "pink"
+    
+    # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+    # then the file will be used as a cover automatically.
+    # With this option you don't have to put the `cover` param in a front-matter.
+    autoCover = true
+
+    # set post to show the last updated
+    # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+    showLastUpdated = true
+
+    enableGitInfo = true
+
+    centerTheme = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "napkinstack"
+    subtitle = "a page for my notes"
+    owner = "damon aka napkins"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "napkinstack"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "notes"
+        name = "notes"
+        url = "/notes"
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "home"
+        url = "/"
