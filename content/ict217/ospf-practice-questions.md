@@ -18,6 +18,6 @@ summary: some practice questions revolving around ospf
 
 what does router router1 use as its ospf router-id?
 
-the answer is: {{< inlinespoiler >}}the router-id is 192.168.0.1, the loopbacks address.{{< /inlinespoiler >}}
+the answer is: {{< inlinespoiler >}}the router-id is 172.16.15.10, the loopbacks address.{{< /inlinespoiler >}}
 
 the reason is: {{< inlinespoiler >}}the router-id gets set to the loopback address if it is manually set. if there is no loopback address created, it will take the highest ip address and use that instead.{{< /inlinespoiler >}}
