@@ -45,9 +45,25 @@ publishDir = "/home/damon/docker-services/napkinstackhugo/data/nginx/www/html/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "ict211"
+        name = "ict211"
+        url = "/ict211"
+      [[languages.en.menu.main]]
         identifier = "ict212"
         name = "ict212"
         url = "/ict212"
+      [[languages.en.menu.main]]
+        identifier = "ict217"
+        name = "ict217"
+        url = "/ict217"
+      [[languages.en.menu.main]]
+        identifier = "ict218"
+        name = "ict218"
+        url = "/ict218"
+      [[languages.en.menu.main]]
+        identifier = "ict219"
+        name = "ict219"
+        url = "/ict219"
       [[languages.en.menu.main]]
         identifier = "notes"
         name = "notes"
