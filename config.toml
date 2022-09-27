@@ -45,10 +45,16 @@ publishDir = "/home/damon/docker-services/napkinstackhugo/data/nginx/www/html/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "ict212"
+        name = "ict212"
+        url = "/ict212"
+      [[languages.en.menu.main]]
         identifier = "notes"
         name = "notes"
         url = "/notes"
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "home"
         name = "home"
         url = "/"
+        weight = -99

@@ -3,6 +3,7 @@ title: pwnagotchi ai not starting fix
 date: 2022-09-26T21:44:03.000Z
 draft: false
 tags: [pwnagotchi, fix, ai]
+summary: on the newest version of pwnagotchi (at this time, v1.5.5), the numpy library causes issues with starting the ai.
 ---
 
 ## problem
