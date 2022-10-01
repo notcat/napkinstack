@@ -23,7 +23,7 @@ under "SSID / Network Name ...." put the wifi ssid of the one you would like to 
 
 have fun with this, dont do anything bad, and be good out there.
 
-always be aware of attacks that someone might use, so you can better protect yourself against it. if your access point is named "SHAW-xxxxx", there is a good chance the attacker will go for you over an access point named "i love foss". an ssid name of "SHAW-xxxxx" gives you a lot of information about the potential victim, and can be a good gague of whether or not the person has changed their password from the default.
+always be aware of attacks that someone might use, so you can better protect yourself against it. if your access point is named "SHAW-xxxxx", there is a good chance the attacker will go for you over an access point named "i love foss". an ssid name of "SHAW-xxxxx" gives you a lot of information about the potential victim, like what kind of router or isp they are using, and can be a good gague of whether or not the person has changed their password from the default.
 
 the whole point of wardriving is to scope out potential targets and if you are blatantly broadcasting that you might be a potential target with an unsecured and unconfigured access point, it could make you a target.
 
